@@ -13,5 +13,6 @@ public class Trampoline : MonoBehaviour
         
         AudioSource audioSrc = GetComponent<AudioSource>();
         audioSrc.clip = boingClip;
+        audioSrc.Play();
     }
 }
